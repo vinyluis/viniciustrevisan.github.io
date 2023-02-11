@@ -2,7 +2,7 @@
 # bundle exec jekyll serve --livereload
 
 # url: https://y7kim.github.io
-baseurl: /page/
+baseurl: /page
 
 # Site settings
 title: Vinícius Trevisan

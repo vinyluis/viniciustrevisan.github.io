@@ -11,6 +11,7 @@ color:
   # VT COLORS
   gray-light: DEDEDE
   gray-medium: AAA
+  gray-dark-medium: 444
 
 # Font Families
 font:

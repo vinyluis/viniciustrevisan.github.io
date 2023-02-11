@@ -73,8 +73,12 @@ h6 {
     background-color: #f7f7f7;
 }
 
+.bg-dark-medium-gray {
+    background-color: #252525;
+}
+
 .bg-darkest-gray {
-    background-color: #222;
+    background-color: #181818;
 }
 
 .btn-primary {
@@ -279,13 +283,35 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
+    .navbar-default.navbar-shrink .vt-navbar-brand {
+        font-size: 1.5em;
+        line-height: 3.0em;
+    }
 }
 
+
+/* OLDER VERSION
 header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+*/
+
+header {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    /* background-image: url('{{ site.baseurl }}/img/header-bg.jpg');*/
+    background-image: url('{{ site.baseurl }}/img/code-bg-dim.png');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -318,8 +344,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 100px;
+        padding-bottom: 50px;
     }
 
     header .intro-text .intro-lead-in {
