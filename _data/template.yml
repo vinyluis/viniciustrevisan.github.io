@@ -5,7 +5,8 @@ color:
   primary: 004cff
   secondary: 08349c   
   secondary-dark: 333
-  muted: 777
+  muted: 7773
+  site-title: AAA
 
 # Font Families
 font:

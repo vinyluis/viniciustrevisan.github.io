@@ -180,6 +180,14 @@ fieldset[disabled] .btn-xl.active {
     color: #{{ site.data.template.color.primary }};
 }
 
+.navbar-default .vt-navbar-brand {
+    color: #{{ site.data.template.color.site-title }};
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+}
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
