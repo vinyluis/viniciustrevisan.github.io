@@ -2,11 +2,15 @@
 color:
   # primary: fed136
   # secondary: fec503
-  primary: 004cff
-  secondary: 08349c   
+  # primary: 08349c
+  primary: 355ab0
+  secondary: 122757
   secondary-dark: 333
   muted: 7773
-  site-title: AAA
+
+  # VT COLORS
+  gray-light: DEDEDE
+  gray-medium: AAA
 
 # Font Families
 font:

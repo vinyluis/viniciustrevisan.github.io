@@ -14,6 +14,14 @@ body {
     color: #{{ site.data.template.color.muted }};
 }
 
+.vt-text-light {
+    color: #{{ site.data.template.color.gray-light }};
+}
+
+.vt-text-medium {
+    color: #{{ site.data.template.color.gray-medium }};
+}
+
 .text-primary {
     color: #{{ site.data.template.color.primary }};
 }
@@ -181,7 +189,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .vt-navbar-brand {
-    color: #{{ site.data.template.color.site-title }};
+    color: #{{ site.data.template.color.gray-medium }};
     font-family: {{ site.data.template.font.primary }};
     font-size: 22px;
     font-style: normal;
