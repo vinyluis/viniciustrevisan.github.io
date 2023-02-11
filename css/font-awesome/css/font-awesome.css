@@ -17,6 +17,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'FontAwesome6';
+  src: url('../fonts/fontawesome6-regular-400.otf?#iefix&v=4.5.0') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -2090,4 +2096,10 @@
 }
 .fa-percent:before {
   content: "\f295";
+}
+
+
+.fa-memo:before {
+  font-family: FontAwesome6;
+  content: "\e1d8";
 }
