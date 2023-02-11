@@ -1,30 +1,11 @@
-Agency Jekyll theme
-====================
+# Vinicius Trevisan - Portfolio
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+This is the repository for the github.io page that stores my portfolio.
 
-# How to use
+The website was built with Jekyll, based on [Agency Theme](https://y7kim.github.io/agency-jekyll-theme).
 
-###Portfolio 
+## About me
 
-Portfolio projects are in '/_posts'
+I am an experienced data scientist, having worked in many data science and machine learning projects in finance and elevator maintenance industries. I believe I have a strong sense of integration between the data product developed by the data scientists and how the business operates with this product to generate revenue.
 
-Images are in '/img/portfolio'
-
-###About
-
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+The focus of my studies for my Master’s Degree (and future PhD) is the use of deep learning techniques for image-based applications, such as computer vision and image synthesis with generative adversarial networks (GANs). I wish to use these skills beyond the scope of academic research to also impact businesses.
