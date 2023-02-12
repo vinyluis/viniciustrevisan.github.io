@@ -939,3 +939,10 @@ img.about_img{
     height: 240px;
     right: 0;
 }
+
+.portfolio_content{
+    border-top: 1px #EEE solid;
+    border-bottom: 1px #EEE solid;
+    padding: 1em 0;
+    margin-bottom: 1em;
+}
