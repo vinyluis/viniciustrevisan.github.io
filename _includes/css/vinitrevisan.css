@@ -946,3 +946,8 @@ img.about_img{
     padding: 1em 0;
     margin-bottom: 1em;
 }
+
+.portfolio_content img{
+    max-width:650px;
+    text-align:center;
+}

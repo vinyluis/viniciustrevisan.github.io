@@ -13,7 +13,7 @@ project-date: December 2017
 category: Computer vision
 
 link_text: PDF [PT-BR]
-link_url: 3d60.pdf
+link_url: content/portfolio/assets/3d60.pdf
 
 github_url: 
 

@@ -3,8 +3,8 @@ type: portfolio
 title: Data Science Articles
 subtitle: Writing for Towards Data Sience
 layout: default
-modal-id: 2
-date: 2022-01-01
+modal-id: 0
+date: 2023-01-01
 thumbnail: medium_thumb_400_289.png
 img: medium.png
 alt: Vinicius Trevisan's profile on Medium
