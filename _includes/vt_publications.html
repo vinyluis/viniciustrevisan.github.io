@@ -7,21 +7,23 @@
                     <h3 class="section-subheading">My latest publications.</h3>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12 text-justify">
-                    <h3>Fundamentals and Challenges of Generative Adversarial Networks for Image-based Applications</h3>
-                    <p>2022 35th SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI) · Dec 26, 2022</p>
-                    <p>Abstract: <i>Significant advances in image-based applications have been achieved in recent years, many of which are arguably due to recent developments in 
-                                    Generative Adversarial Networks (GANs). Although the continuous improvement in the architectures of GAN has significantly increased the quality 
-                                    of synthetic images, this is not without challenges such as training stability and convergence issues, to name a few. In this work, we present 
-                                    the fundamentals and notable architectures of GANs, especially for image-based applications. We also discuss relevant issues such as training problems, 
-                                    diversity generation, and quality assessment (metrics).</i></p>
-                    <p>
-                        <i class="fa fa-file"></i>&nbsp;&nbsp;<a href="https://ieeexplore.ieee.org/abstract/document/9991776">Read the paper</a>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <i class="fa fa-github"></i>&nbsp;&nbsp;<a href="https://github.com/vinyluis/GANs-Tutorial">Github repository</a>
-                    </p>
-                </div>
+
+            {% for publi in site.posts %}
+            {% if publi.type == "publication" %}
+            <div class="row"></div>
+            <div class="col-lg-12 text-justify">
+                <h3>{{ publi.title }}</h3>
+                <p>{{ publi.journal }}</p>
+                <p>Abstract: <i>{{ publi.abstract }}</i></p>
+                <p>
+                    <i class="fa fa-file"></i>&nbsp;&nbsp;<a href="{{ publi.paper_url }}", target="_blank">Read the paper</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fa fa-github"></i>&nbsp;&nbsp;<a href="{{ publi.github_url }}", target="_blank">Github repository</a>
+                </p>
             </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+
         </div>
     </section>
