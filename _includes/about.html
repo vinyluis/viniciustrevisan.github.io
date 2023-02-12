@@ -1,0 +1,38 @@
+<!-- About Section -->
+    <section id="about" class="bg-dark-medium-gray vt-text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About</h2>
+                    <h3 class="section-subheading">A little bit about me.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <div class="col-md-4">
+                        <img src="img/about/vini-square.jpg" class="about_img text-center">
+                    </div>
+
+                    <div class="col-md-8">
+                        
+                        <p>
+                            I am an experienced data scientist, having worked in many data science and machine learning projects in finance and elevator maintenance industries. I believe I have a strong sense of integration between the data product developed by the data scientists and how the business operates with this product to generate revenue.
+                        </p>
+                        <p>
+                            The focus of my studies for my Master’s Degree (and future PhD) is the use of deep learning techniques for image-based applications, such as computer vision and image synthesis with generative adversarial networks (GANs). I wish to use these skills beyond the scope of academic research to also impact businesses.
+                        </p>
+
+                        <ul class="list-inline social-buttons-light text-center">
+                            {% for network in site.social %}
+                            <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>

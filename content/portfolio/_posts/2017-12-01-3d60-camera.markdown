@@ -1,0 +1,32 @@
+---
+type: portfolio
+title: 3D60 - A 3D 360° Camera
+subtitle: Graduation project
+layout: default
+modal-id: 1
+date: 2017-12-01
+thumbnail: 3d60_thumb_400_289.png
+img: 3d60.png
+alt: 3D60 - A 3D 360° Camera
+
+project-date: December 2017
+category: Computer vision
+
+link_text: PDF [PT-BR]
+link_url: content/portfolio/assets/3d60.pdf
+
+github_url: 
+
+summary: As a graduation project for my degree in Control and Automation Engineering I developed with my group a camera capable of filming in 360° and 3D, and even build a prototype with 180° for proving the concept. Many computer vision and image processing techniques were employed into making this project.
+
+---
+
+The entertainment industry has been innovating in delivering new ways to consume media.
+
+With the ever growing capacity of the new processors and memories inside embedded systems, it is now possible to create complex types of media, like slow motion videos, virtual reality, 360° videos or 3D videos. 
+
+The purpose of this work is to unite both the 3D recording and 360° recording technologies into one single device, intended to generate a new kind of media that is able to cause a sensation of immersion to the viewer. 
+
+Thus, the individual that watches a video made with this camera would be able to see the scenario around him in 360 degrees while still maintaining the sensation of depth caused by 3D imaging techniques. 
+
+There are, nowadays, virtual reality glasses able to reproduce images and videos with both effects giving the immersion sensation, but generally these images are artificially built with 3D modelling in a computer. A camera that records images in both 360° and 3D allows that real life images, like shows, parties and other events.
