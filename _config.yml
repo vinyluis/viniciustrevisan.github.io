@@ -1,7 +1,7 @@
 ## PARA RODAR:
 # bundle exec jekyll serve --livereload
 
-url: https://vinyluis.github.io
+url: https://viniciustrevisan.com/
 baseurl: /
 
 # Site settings
