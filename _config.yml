@@ -1,5 +1,7 @@
 ## PARA RODAR:
 # bundle exec jekyll serve --livereload
+# Se nder erro do webrick:
+# bundle add webrick
 
 url: https://viniciustrevisan.com
 baseurl: /

@@ -17,11 +17,11 @@ link_url: https://ieeexplore.ieee.org/abstract/document/9991776
 
 github_url: https://github.com/vinyluis/GANs-Tutorial
 
-summary: I like to write about Data Science techniques, Machine Learning models, Deep Learning applied for image processing, and the career in Data Science. My articles reach around 30k people every month.
+summary: Tutorial on GANs presented on the 35th edition of SIBGRAPI, named Fundamentals and Challenges of Generative Adversarial Networks for Image-based Applications.
 
 ---
 
-On the 35th edition of the SIBGRAPI (Conference on Graphics, Patterns and Images), in the city of Natal - Brazil, I presented a tutorial named **FUNDAMENTALS AND CHALLENGES OF GENERATIVE ADVERSARIAL NETWORKS FOR IMAGE-BASED APPLICATIONS**.
+On the 35th edition of SIBGRAPI (Conference on Graphics, Patterns and Images), in the city of Natal - Brazil, I presented a tutorial named **FUNDAMENTALS AND CHALLENGES OF GENERATIVE ADVERSARIAL NETWORKS FOR IMAGE-BASED APPLICATIONS**.
 
 The goal of the 3-hour long tutorial was to introduce researchers on the fundamentals of Generative Adversarial Networks (GANs) and their applications for image processing, computer vision and computer graphics. As part of the presentation, a hands-on section of coding was made available on a [Github repository](https://github.com/vinyluis/GANs-Tutorial). The tutorial and paper were developed with the help of my avisors, [João Paulo Gois](https://scholar.google.com/citations?user=-AYhiyQAAAAJ&hl=pt-BR) and [Bruno Dorta](https://scholar.google.com.br/citations?user=6mREjGgAAAAJ&hl=pt-BR).
 

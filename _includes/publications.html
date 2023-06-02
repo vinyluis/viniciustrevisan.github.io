@@ -10,17 +10,19 @@
 
             {% for publi in site.posts %}
             {% if publi.type == "publication" %}
-            <div class="row"></div>
-            <div class="col-lg-12 text-justify">
-                <h3>{{ publi.title }}</h3>
-                <p>{{ publi.journal }}</p>
-                <p class="text-justify">Abstract: <i>{{ publi.abstract }}</i></p>
-                <p>
-                    <i class="fa fa-file"></i>&nbsp;&nbsp;<a href="{{ publi.paper_url }}", target="_blank">Read the paper</a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-github"></i>&nbsp;&nbsp;<a href="{{ publi.github_url }}", target="_blank">Github repository</a>
-                </p>
-            </div>
+            <div class="row">
+                <div class="col-lg-12 text-justify">
+                    <h3>{{ publi.title }}</h3>
+                    <p>{{ publi.journal }}</p>
+                    <p class="text-justify">Abstract: <i>{{ publi.abstract }}</i></p>
+                    <p>
+                        <i class="fa fa-file"></i>&nbsp;&nbsp;<a href="{{ publi.paper_url }}", target="_blank">Read the paper</a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        {% if publi.github_url != nil %}
+                        <i class="fa fa-github"></i>&nbsp;&nbsp;<a href="{{ publi.github_url }}", target="_blank">Github repository</a>
+                        {% endif %}
+                    </p>
+                </div>
             </div>
             {% endif %}
             {% endfor %}
