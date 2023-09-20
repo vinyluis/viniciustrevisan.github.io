@@ -13,7 +13,7 @@ project-date: June 2023
 category: Data Science
 
 link_text: Read the paper
-link_url: https://authors.elsevier.com/a/1hBFT_2EOxQVKW
+link_url: https://doi.org/10.1016/j.cag.2023.05.010
 
 summary: A review on generative adversarial networks for image generation. Computers & Graphics. Computers & Graphics 2023.
 
