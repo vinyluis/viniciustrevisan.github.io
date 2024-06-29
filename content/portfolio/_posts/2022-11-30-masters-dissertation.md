@@ -13,7 +13,7 @@ project-date: 2020 - 2022
 category: Computer Vision
 
 link_text: PDF [PT-BR]
-link_url: content/portfolio/assets/Estudo sobre o uso de redes adversárias generativas para transformação de contornos em imagens e síntese de imagens.pdf
+link_url: content/portfolio/assets/masters-dissertation.pdf
 
 github_url:
 
@@ -31,7 +31,7 @@ On the first part of the work I studied using Pix2Pix and CycleGAN in sketch-to-
 
 The second part is a proposal of an autoencoder generator to quickly manipulate and edit images. The experiments were made with many combinations of components (generator, discriminator, loss, mapping networks, etc.) and serves as a guide for future projects. The code is also available on [Github](https://github.com/vinyluis/Autoencoders).
 
-All the studies and results are on [my dissertation](http://biblioteca.ufabc.edu.br/index.php?codigo_sophia=124594) (in Portuguese).
+All the studies and results are on [my dissertation](https://viniciustrevisan.com/content/portfolio/assets/masters-dissertation.pdf) (in Portuguese).
 
 ---
 
